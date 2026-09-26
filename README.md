@@ -15,7 +15,7 @@ WARNING, LED YELLOW ON (Other LEDs OFF), BUZZER - Beep-Beep-Beep-Beep...
 STOP, LED RED ON (Other LEDs OFF), BUZZER - Beeeeeee..pppp...
 
 
-# Initial Design: 
+# Design: 
 Used PingTravelTime constraints for the STOP, WARNING and SAFE conditions.
 
 The main *issue* that came up is that void loop() itself is already running once per second because of delay(1000). If you put a while loop inside the warning condition, the Arduino can get stuck there and stop updating the distance.
