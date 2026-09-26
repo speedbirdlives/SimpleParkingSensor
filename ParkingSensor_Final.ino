@@ -1,5 +1,7 @@
 
-// 1.Simple Parking Sensor
+// 1.Simple Parking Sensor (Final Version)
+
+//Added independent buzzer operation to the project.
 
 //including necessary libraries
 #include <LiquidCrystal_I2C.h>
