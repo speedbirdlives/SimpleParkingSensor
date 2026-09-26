@@ -2,7 +2,7 @@
 Simple parking sensor using basic electronic components.
 
 # Components used: 
-Arduino UNO, HCSR04 Ultrasonic Sensor, LCD with I2C module, LEDs(Red, Green and Yellow), Buzzer, Jumper wires and Single-strand wires.
+Arduino UNO, HCSR04 Ultrasonic Sensor, LCD with I2C module, LEDs(Red, Green and Yellow), 330 Ohm Resistors, Buzzer, Jumper wires and Single-strand wires.
 
 # Software: 
 Arduino IDE
